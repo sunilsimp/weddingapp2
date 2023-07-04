@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width:  300,
                     height:  32,
                     child: Text(
-                      'We will send you a One Time Password on your mobile',
+                      'We will  send you a One Time Password on your mobile',
                       textAlign:  TextAlign.center,
                       style:  TextStyle (fontSize:  16, fontWeight:  FontWeight.w500, height:  1, color:  Color(0xffaf5faf),
                       ),
