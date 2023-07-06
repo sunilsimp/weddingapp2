@@ -15,6 +15,20 @@ class Signin extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
 
+              //Todo Not required, add all in ListView widget Like
+              // ListView(
+              //   children: [
+              //   Text(),
+            //SizedBox(height: 20),
+            //   Text(),
+              //SizedBox(height: 20)
+              //.
+              //.
+              //.
+              //.
+              //.
+              //.
+             // ])
                    Align(
                       alignment: Alignment.topCenter,
                       child: Padding(
@@ -65,6 +79,7 @@ class Signin extends StatelessWidget {
                   ),
                   child: Row(
                     children: [
+                      //Todo Container not required
                       Container(
                         width: 24,
                         height: 24,
@@ -75,6 +90,7 @@ class Signin extends StatelessWidget {
 
                         ),
                       ),
+                      //Todo Container not required
                       Container(
                         child: Text(
                           '  Sign in with Google',
@@ -87,6 +103,7 @@ class Signin extends StatelessWidget {
                           ),
                         ),
                       ),
+                      //Todo Container not required
                       Container(
                         width: 24,
                         height: 24,
@@ -116,6 +133,7 @@ class Signin extends StatelessWidget {
                   ),
                   child: Row(
                     children: [
+                      //Todo Container not required
                       Container(
                         width: 24,
                         height: 24,
@@ -125,6 +143,7 @@ class Signin extends StatelessWidget {
                           height: 24,
                         ),
                       ),
+                      //Todo Container not required
                       Container(
                         child: Text(
                           '  Sign in with Apple',
@@ -137,6 +156,7 @@ class Signin extends StatelessWidget {
                           ),
                         ),
                       ),
+                      //Todo Container not required
                       Container(
                         width: 24,
                         height: 24,
