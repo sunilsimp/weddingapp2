@@ -109,9 +109,13 @@ class _registerState extends State<register> {
                               padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
                               child: TextField(decoration: InputDecoration(
                                   hintText: 'Enter Your First Name',
-                                  hintStyle: TextStyle(fontWeight: FontWeight.w500,
+                                  border: InputBorder.none,
+                                  fillColor: Colors.purpleAccent,
+                                hintStyle: TextStyle(fontWeight: FontWeight.w500,
                                   fontSize: 16,
-                                  color: Color(0xffaf5faf)),
+                                  color: Color(0xffaf5faf),
+
+                                  ),
                                 ),
 
 
@@ -150,6 +154,7 @@ class _registerState extends State<register> {
                               padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
                               child: TextField(decoration: InputDecoration(
                                 hintText: 'Enter Your Last Name',
+                                border: InputBorder.none,
                                 hintStyle: TextStyle(fontWeight: FontWeight.w500,
                                     fontSize: 16,
                                     color: Color(0xffaf5faf)),
@@ -191,6 +196,7 @@ class _registerState extends State<register> {
                               padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
                               child: TextField(decoration: InputDecoration(
                                 hintText: 'Enter Your Email Id',
+                                border: InputBorder.none,
                                 hintStyle: TextStyle(fontWeight: FontWeight.w500,
                                     fontSize: 16,
                                     color: Color(0xffaf5faf)),
@@ -232,6 +238,7 @@ class _registerState extends State<register> {
                               padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
                               child: TextField(decoration: InputDecoration(
                                 hintText: 'Enter Your Mobile Number',
+                                border: InputBorder.none,
                                 hintStyle: TextStyle(fontWeight: FontWeight.w500,
                                     fontSize: 16,
                                     color: Color(0xffaf5faf)),
